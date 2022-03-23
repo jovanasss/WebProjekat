@@ -1,0 +1,205 @@
+.GlavniKontejner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top:20px;
+
+}
+
+ 
+.Forma
+{
+    background-color: rgb(19, 19, 19, 0.6);
+    color: white;
+    border-radius: 6px;
+    font-family: Trebuchet MS;
+}
+
+.Prikaz
+{
+    margin-left:10px;
+    font-family: Trebuchet MS;
+}
+
+.red
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.agencijaRed{
+    text-align: center;
+    margin-top:5px;
+}
+
+.btnUpisi
+{
+    background-color: rgba(40, 120, 224, 0.753);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    height:28px;
+}
+.btnUpisi:hover
+{
+    background-color: rgba(15, 95, 199, 0.753);
+}
+
+.btnDodaj
+{
+    background-color: rgba(0, 153, 50);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    height:28px;
+}
+.btnDodaj:hover
+{
+    background-color: rgb(4, 131, 46);
+}
+
+.btnAzuriraj
+{
+    background-color: rgb(255, 153, 51);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    height:28px;
+}
+.btnAzuriraj:hover
+{
+    background-color: rgb(250, 135, 20);
+}
+
+.btnObrisi
+{
+    background-color: rgb(255, 90, 90);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    height:28px;
+}
+.btnObrisi:hover
+{
+    background-color: rgb(255, 66, 66);
+}
+
+.btnNadji
+{
+    background-color: rgba(40, 120, 224, 0.753);
+    border:none;
+    border-radius: 5px;
+    color: white;
+    height:28px;
+}
+.btnNadji:hover
+{
+    background-color: rgba(15, 95, 199, 0.753);
+}
+
+table, tr, th, td
+{
+    border: 1px solid black
+}
+
+table
+{
+    border-collapse: collapse;
+    zoom:120%;
+    background-color:rgb(156, 155, 155);
+    color:white;
+    border-radius: 5px;
+}
+
+th
+{
+    background-color: rgb(241, 174, 72);
+    width: 75px;
+}
+
+.Forma{
+    display: flex;
+    flex: 0 0 200px; /*0 da ne raste, 0 da se ne smanjuje i bice sirok 200px*/
+    flex-direction: column;
+}
+
+.cbbox{
+    display: flex;
+    flex-direction:  column;
+}
+
+.Honorar
+{
+    border-radius: 5px;
+    border: none;
+    height:18px;
+}
+.Honorar:hover
+{
+    background-color: rgb(216, 216, 216);
+}
+
+.ImeRadnika
+{
+    border-radius: 5px;
+    border: none;
+    height:18px;
+}
+.ImeRadnika:hover
+{
+    background-color: rgb(216, 216, 216);
+}
+
+.PrezimeRadnika
+{
+    border-radius: 5px;
+    border: none;
+    height:18px;
+}
+.PrezimeRadnika:hover
+{
+    background-color: rgb(216, 216, 216);
+}
+
+.BrojJMBG
+{
+    border-radius: 5px;
+    border: none;
+    height:18px;
+}
+.BrojJMBG:hover
+{
+    background-color: rgb(216, 216, 216);
+}
+
+.se
+{
+    border-radius: 5px;
+    border: none;
+    height:18px;
+}
+.se:hover
+{
+    background-color: rgb(216, 216, 216);
+}
+
+
+/*----------------------responsive------------------*/
+@media only screen and (max-width: 700px) {
+
+    .GlavniKontejner
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Forma
+    {
+        margin-bottom: 10px;
+        align-items: center;
+    }
+
+  }
